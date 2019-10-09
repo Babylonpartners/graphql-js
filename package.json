@@ -1,20 +1,22 @@
 {
-  "name": "graphql",
+  "name": "@babylon/graphql-js",
   "version": "14.5.8",
   "description": "A Query Language and Runtime which can target any service.",
   "license": "MIT",
-  "private": true,
   "main": "index",
   "module": "index.mjs",
   "types": "index.d.ts",
   "sideEffects": false,
-  "homepage": "https://github.com/graphql/graphql-js",
+  "homepage": "https://github.com/dchambers/graphql-js?organization=dchambers&organization=dchambers",
   "bugs": {
-    "url": "https://github.com/graphql/graphql-js/issues"
+    "url": "https://github.com/dchambers/graphql-js/issues?organization=dchambers&organization=dchambers"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/graphql/graphql-js.git"
+    "url": "git@github.com:dchambers/graphql-js.git"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.ops.babylontech.co.uk/artifactory/api/npm/babylon-virtual-npm/"
   },
   "keywords": [
     "graphql",
